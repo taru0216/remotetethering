@@ -1,16 +1,28 @@
+/* 
+ * Copyright (c) 2007 Masato Taruishi
+ * 
+ * This code is free software: you can redistribute it and/or modify it under 
+ * the terms of the GNU General Public License version 3 only, as
+ * published by the Free Software Foundation.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License 
+ * version 3 for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 3 along with this work.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 package net.taruishi.android.remotethering;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Observable;
-import java.util.Set;
 import java.util.UUID;
 import java.util.logging.Logger;
 
 import android.bluetooth.BluetoothClass.Device;
-import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothSocket;
 
 public class BluetoothModel extends Observable {
 

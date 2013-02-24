@@ -1,11 +1,25 @@
+/* 
+ * Copyright (c) 2007 Masato Taruishi
+ * 
+ * This code is free software: you can redistribute it and/or modify it under 
+ * the terms of the GNU General Public License version 3 only, as
+ * published by the Free Software Foundation.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License 
+ * version 3 for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * version 3 along with this work.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 package net.taruishi.android.remotethering.client;
 
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.Observable;
-import java.util.Observer;
 import java.util.logging.Logger;
 
 import net.taruishi.android.remotethering.Presentor;
@@ -14,7 +28,6 @@ import android.app.Activity;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.net.wifi.WifiManager;
-import android.widget.Toast;
 
 public class ClientPresentor extends Presentor {
 
